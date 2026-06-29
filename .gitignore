@@ -1,0 +1,6 @@
+# Ensure only source code goes to Git repo
+.env
+node_modules/
+
+# Git should not add auto-generated log files during a crash or output redirects.
+*.log  
