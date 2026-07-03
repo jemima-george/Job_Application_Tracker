@@ -10,7 +10,7 @@ const app = express();
 app.use(cors({
   origin: [
     'http://localhost:5173',  // local frontend - npm run dev link
-    'https://job-application-tracker-jade-omega.vercel.app/',  // Vercel deployed frontend URL
+    'https://job-application-tracker-jade-omega.vercel.app',  // Vercel deployed frontend URL
   ],
 }));
 
