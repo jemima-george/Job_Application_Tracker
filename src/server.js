@@ -5,8 +5,14 @@ const jobsRouter = require('./routes');
 
 const app = express();
 
-// CORS - required to connect GitHub Pages to Render
-app.use(cors());
+// CORS - required to connect GitHub Pages to Render 
+// Cors allows only to frontend used origins
+app.use(cors({
+  origin: [
+    'http://localhost:5173',  // local frontend - npm run dev link
+    'https://job-application-tracker-jade-omega.vercel.app/',  // Vercel deployed frontend URL
+  ],
+}));
 
 // Middleware
 app.use(express.json());
