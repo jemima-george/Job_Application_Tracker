@@ -1,6 +1,11 @@
 // Connect to backend endpoints
 
-const BASE_URL = 'http://localhost:3000';
+// Use Vite api url as either local or render deployed link 
+// Add const BASE_URL = 'http://localhost:3000'; to .env file in frontend folder
+
+// Vite automatically uses .env during npm run dev (local) and .env.production during npm run build (when deployed on Vercel)
+// Locally it takes localhost:3000 and on Vercel it takes the Render URL
+const BASE_URL = import.meta.env.VITE_API_URL;
 
 // Checks fetch results from the 4 fetch functions
 async function handleResponse(res) {
