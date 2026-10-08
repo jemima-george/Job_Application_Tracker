@@ -93,7 +93,7 @@ ${toneInstruction}`;
         },
         // Sends Groq message/request by converting json data to string that can travel across the internet
         body: JSON.stringify({
-        model: 'llama-3.3-70b-versatile',
+        model: 'openai/gpt-oss-120b',
         // message passes conversation history to AI
         // System sets behavious of AI as SYSTEM_PROMPT
         // User sets the user's question as userPrompt
