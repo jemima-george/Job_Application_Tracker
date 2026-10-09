@@ -15,7 +15,8 @@ Rules you must follow:
 - Do not include placeholder text like [Your Name] or [Date] - write the body paragraphs only.
 - Structure: opening hook that references the specific role and company, 
   one paragraph on relevant skills/experience, one paragraph on why this 
-  company specifically, closing paragraph with a call to action.
+  company specifically after searching for relevant information about the company, closing paragraph with a call to action.
+- If you cannot find any information about the specific company name, then do not write information about the company in the letter and write 'NOTE: I could not find any information about the company.' below the letter.
 - Keep it to 3-4 paragraphs maximum.`;
 
 // Adjust tone of the cover letter as either formal, friendly or concise 
